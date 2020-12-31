@@ -624,7 +624,7 @@ i.e. "Function Mailer ($subject)"
 
 # *****FRESHSERVICE VARIABLES******
 
-    $APIKey = 'iolugkLsSyDG2usls5Q'
+    $APIKey = '*******************'
     $EncodedCredentials = [Convert]::ToBase64String([Text.Encoding]::ASCII.GetBytes(("{0}:{1}" -f $APIKey,$null)))
     $HTTPHeaders = @{}
     $HTTPHeaders.Add('Authorization', ("Basic {0}" -f $EncodedCredentials))
